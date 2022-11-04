@@ -20,6 +20,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylsheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
     <title>Portfolio</title>
   </head>
   <body>
@@ -39,44 +43,69 @@
         </li>
       </ul>
     </nav>
-    <div class="container mt-3 text-center">
-      <h2 class="display-1">Lets get in Touch!</h2>
-      <p>Send me a message</p>
-      <form action="/action_page.php">
-        <div class="form-floating mb-4 mt-3">
-          <input
-            type="text"
-            class="form-control"
-            id="name"
-            placeholder="Enter name"
-            name="name"
-          />
-          <label for="name">Name</label>
-        </div>
-        <div class="form-floating mb-3 mt-3">
-          <input
-            type="text"
-            class="form-control"
-            id="email"
-            placeholder="Enter email"
-            name="email"
-          />
-          <label for="email">Email</label>
-        </div>
-        <div class="form-floating">
-          <textarea
-            class="form-control"
-            id="message"
-            name="text"
-            placeholder="Message goes here"
-          ></textarea>
-          <label for="message">Message</label>
-        </div>
+    <div
+      class="shadow-lg p-3 mb-5 bg-body rounded"
+      style="margin: 50px; width: 800px; margin-left: 350px;"
+    >
+      <div class="container mt-3 text-center">
+        <h2 class="display-1">Lets get in Touch!</h2>
+        <p>Send me a message</p>
+        <form action="/action_page.php">
+          <div class="form-floating mb-4 mt-3">
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Enter name"
+              name="name"
+              style="width: 700px"
+            />
+            <label for="name">Name</label>
+          </div>
+          <div class="form-floating mb-3 mt-3">
+            <input
+              type="text"
+              class="form-control"
+              id="email"
+              placeholder="Enter email"
+              name="email"
+              style="width: 700px"
+            />
+            <label for="email">Email</label>
+          </div>
+          <div class="form-floating">
+            <textarea
+              class="form-control"
+              id="message"
+              name="text"
+              placeholder="Message goes here"
+              style="width: 700px"
+            ></textarea>
+            <label for="message">Message</label>
+          </div>
 
-        <button type="submit" class="btn btn-primary" style="margin-top: 20px">
-          Submit
-        </button>
-      </form>
+          <button
+            type="submit"
+            class="btn btn-primary"
+            style="margin-top: 20px"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="icons text-center fa-4x">
+      <i class="bi bi-facebook"></i>
+      <i class="bi bi-twitter"></i>
+      <i class="bi bi-instagram"></i>
+      <i class="bi bi-linkedin"></i>
+      <i class="bi bi-slack"></i>
+      <i class="bi bi-github"></i>
+    </div>
+    <div class="mt-5 p-4 bg-light text-body text-center">
+      <h1">
+        Living, Learning & Leveling up one day at a time.
+      </h1>
     </div>
   </body>
 </html>
